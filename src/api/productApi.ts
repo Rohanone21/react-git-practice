@@ -6,7 +6,7 @@ export const getProducts = async (): Promise<Product[]> => {
 
   return response.data;
 };
-const var1="first variable";
+const var1="Another check new Variable"
 export const getProductById = async (
   id: number
 ): Promise<Product> => {
