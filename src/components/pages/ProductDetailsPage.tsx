@@ -44,7 +44,7 @@ const ProductDetailsPage = () => {
   }
 
   if (!product) {
-    return <p>Product not found</p>;
+    return <p>Product not found first merge conflict </p>;
   }
 
   return (

@@ -23,7 +23,10 @@ const ProductListPage = () => {
 
   //////////////////////////////
   /////////////////////////////////////
-  
+
+  /* New Comment Added in Rohan-newBranch */
+  // New Comment Added in Rohan-newBranch
+
   const handleViewProduct = (id: number) => {
     navigate(`/products/${id}`);
   };
