@@ -20,6 +20,10 @@ const ProductListPage = () => {
     dispatch(fetchProducts());
   }, [dispatch]);
 
+
+  //////////////////////////////
+  /////////////////////////////////////
+  
   const handleViewProduct = (id: number) => {
     navigate(`/products/${id}`);
   };
